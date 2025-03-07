@@ -1,0 +1,38 @@
+@media (max-width: 480px) {
+  .roda {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .roda h4 {
+    font-size: 15px;
+  }
+
+  .roda li {
+    font-size: 15px;
+  }
+
+  .produto-container {
+    flex-direction: column;
+  }
+
+  .centraliza-img {
+    width: 200px;
+    height: 500px;
+    margin-left: 80px;
+  }
+
+  .form-cep {
+    background-color: var(--blueA-background-color);
+    height: 50px;
+    width: 100px;
+  }
+
+  .descricao {
+    font-size: 15px;
+  }
+
+  .caracteristica {
+    font-size: 10px; 
+  }
+}

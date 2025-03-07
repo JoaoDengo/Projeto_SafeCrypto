@@ -1,0 +1,22 @@
+@media (max-width: 480px) {
+  .roda {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .roda h4 {
+    font-size: 15px;
+  }
+
+  .roda li {
+    font-size: 15px;
+  }
+
+  .sobre h3 {
+    font-size: 25px;
+  }
+
+  .container-img{
+    flex-direction: column;
+  }
+}

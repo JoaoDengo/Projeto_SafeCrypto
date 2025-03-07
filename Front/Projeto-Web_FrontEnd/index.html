@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Krona+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media/media.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>ProjetoFinal-JoaoDengo-HomePage</title>
+  </head>
+  <body>
+    <header id="header"></header>
+    
+
+    <!-- banner -->
+    <div class="krona-one-regular ad jetbrains-mono-uniquifier">
+      <p class="tira">Frete grátis a partir de R$800</p>
+    </div>
+    <section class="container-meio">
+      <div class="banner">
+        <img class=" img-fluid" src="img/Ledger-flex-banner.png" alt="" />
+        <div class="mt-2">
+          <h1 class="fs-1 krona-one-regular">
+            Última chance para ganhar R$50 de desconto comprando a Ledger Flex
+          </h1>
+          <p>
+            *Promoção válida somente para pagamentos por criptomoedas, até 05 de
+            dezembro
+          </p>
+          <div>
+            <button id="btComprarAgora2" class="botao">Comprar Agora</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- seção de beneficios -->
+    <section class="container-meio">
+      <div class="container-beneficios text-light">
+        <div class="beneficio">
+          <i class="icon-beneficio" data-feather="truck"></i>
+          <p>Pronta entrega no Brasil</p>
+        </div>
+
+        <div class="beneficio">
+          <i class="icon-beneficio" data-feather="calendar"></i>
+          <p>Garantia de 1 ano</p>
+        </div>
+
+        <div class="beneficio">
+          <i class="icon-beneficio" data-feather="headphones"></i>
+          <p>Suporte Rápido</p>
+        </div>
+
+        <div class="beneficio">
+          <i class="icon-beneficio" data-feather="award"></i>
+          <p>Revenda Autorizada</p>
+        </div>
+      </div>
+    </section>
+    <!-- Carrossel -->
+    <section class="container-meio" id="carrossel-container"></section>
+
+    <!-- cards -->
+    <main class="d-flex justify-content-center" id="hardwallet">
+      <section id="produtos" class="grid-cards container-meio"></section>
+    </main>
+    <!-- rodape -->
+    <footer id="footer"></footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="js/produto.js" ></script>
+    <script src="js/app.js" type="module"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/card.js"></script>
+  </body>
+</html>
